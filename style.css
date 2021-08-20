@@ -1,0 +1,403 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.banner-container {
+    background: #dddddd;
+    padding-bottom: 80px;
+    padding-top: 10px;
+}
+
+.logo {
+    max-width: 100px;
+    min-width: 100px;
+    height: auto;
+}
+
+.logo img {
+    width: 100%;
+    height: 100%;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    /* background: red; */
+    justify-content: space-between;
+    margin: 0px 20px;
+}
+
+.nav-links {
+    display: flex;
+    column-gap: 20px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.nav-active {
+    color: red;
+    border-bottom: 2px solid red;
+    padding: 5px;
+}
+
+.nav-links div {
+    display: flex;
+    align-items: center;
+}
+
+.hello {
+    color: red;
+    border: 2px solid red;
+    padding: 5px 10px;
+}
+
+/**********************************/
+/*Banner Content*/
+
+.banner-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bc-main {
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    /* background: blue; */
+    width: 70%;
+    margin-top: 70px;
+}
+
+.bc-sub {
+    font-size: 25px;
+    text-align: center;
+    /* background: yellow; */
+    width: 60%;
+    margin-top: 10px;
+    color: #5d5d5d;
+}
+
+.bcm-highlght {
+    color: red;
+}
+
+.cta {
+    color: white;
+    background-color: black;
+    display: flex;
+    min-height: 30px;
+    width: 60%;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    box-shadow: 5px 5px red;
+    margin-top: 50px;
+    font-size: 20px;
+    padding: 10px 0px;
+}
+
+.cta img {
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    right: 5%;
+}
+
+.cta span {
+    padding: 0px 40px;
+    /* background: rebeccapurple; */
+    text-align: center;
+    font-weight: bold;
+}
+
+/*************************/
+.who-we-are, .what-we-do {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    background: white;
+    padding: 0px 10vw;
+}
+
+.wwa-text {
+    margin-top: 100px;
+    font-size: 16px;
+    background: #ff000038;
+    border-radius: 10px;
+    border: none;
+    padding: 3px 20px;
+    color: red;
+}
+
+.wwa-main {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.wwa-para {
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.who-we-are .right-img img {
+    width: auto;
+    height: 500px;
+}
+
+.who-we-are .right-img {
+    display: flex;
+    justify-content: flex-end;
+    /* justify-content: center; */
+}
+
+.flex-wwd {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    /* flex-wrap: wrap; */
+    padding: 0px 10vw;
+    justify-content: space-between;
+    column-gap: 20px;
+    margin-top: 40px;
+    row-gap: 20px;
+}
+
+/*WWD Boxes*/
+.wwd-boxes {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.wwd-center-icon {
+    width: 50px;
+    height: 50px;
+}
+
+.wwd-arrow {
+    display: flex;
+    justify-self: flex-end;
+    align-self: flex-end;
+    width: 30px;
+    height: 30px;
+}
+
+/**************/
+.main-wwd {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 10px 0px;
+    text-align: center;
+}
+
+.wwd-parent, .what-we-do {
+    background-color: #dddddd!important;
+}
+
+.wwd-parent {
+    padding-bottom: 100px;
+}
+
+/*Get n touch*/
+.git-container {
+    padding: 80px 15vw;
+    background-color: white;
+}
+
+.git-main {
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    width: 80%;
+    margin: 0px auto;
+}
+
+.git-sub {
+    font-size: 18px;
+    text-align: center;
+    width: 80%;
+    margin: 0px auto;
+}
+
+.git-container input {
+    display: block;
+    width: 100%;
+    height: 50px;
+    text-indent: 20px;
+    border: 2px solid gray;
+    border-radius: 5px;
+    font-size: 18px;
+    margin: 20px 0px;
+}
+
+.git-container textarea {
+    display: block;
+    width: 100%;
+    height: 250px;
+    text-indent: 20px;
+    border: 2px solid gray;
+    border-radius: 5px;
+    font-size: 18px;
+    margin: 20px 0px;
+    padding-top: 10px;
+}
+
+.git-container .cta {
+    width: 100%!important;
+    margin-bottom: 20px;
+}
+
+.git-container .sub-bottom {
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    width: 80%;
+    margin: 0px auto;
+}
+
+/************/
+.footer {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr 1fr 1fr;
+    padding: 50px 10vw;
+    background-color: #dddddd;
+    font-size: 18px;
+    column-gap: 20px;
+    color: grey;
+    row-gap: 20px;
+}
+
+.footer-child div {
+    margin-bottom: 10px;
+}
+
+.top-link {
+    font-weight: bold;
+    margin-top: 15px;
+    margin-bottom: 40px!important;
+    color: black;
+}
+
+.footer-logo {
+    max-width: 150px;
+    min-width: 150px;
+    height: auto;
+}
+
+.footer-logo img {
+    width: 100%;
+    height: 100%;
+}
+
+.footer .one-sub {
+    margin-top: 20px;
+}
+
+.footer-child {
+    /* background: red;
+    border: 2px solid black; */
+    min-width: calc(100% / 4);
+    overflow-wrap: anywhere;
+}
+
+/******************************************/
+@media (max-width: 900px) {
+    .who-we-are, .what-we-do, .flex-wwd {
+        padding: 0px 5vw;
+    }
+
+    .bc-main, .bc-sub, .cta {
+        width: 90%;
+        /* font-size: 35px; */
+    }
+
+    .git-container {
+        padding: 80px 10vw;
+    }
+
+    .git-main, .git-sub {
+        width: 100%;
+    }
+
+    .footer {
+        display: grid;
+        grid-template-columns: 1.5fr 1fr;
+    }
+
+    .top-link {
+        margin-bottom: 10px!important;
+        margin-top: 15px;
+    }
+}
+
+
+@media (max-width: 800px) and (min-width: 0px) {
+    /* body {
+        color: green;
+    } */
+
+    .nav-links {
+        display: none;
+    }
+
+    .bc-main, .bc-sub, .cta {
+        width: 90%;
+    }
+
+    .who-we-are, .what-we-do {
+        display: grid;
+        grid-template-columns: 100%;
+    }
+
+    .who-we-are .right-img {
+        display: flex;
+        justify-content: center;
+    }
+
+    .flex-wwd {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (max-width: 500px) {
+    .flex-wwd {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .who-we-are .right-img img {
+        width: auto;
+        height: 400px;
+    }
+
+    .git-container {
+        padding: 80px 5vw;
+    }
+
+    .git-container .sub-bottom {
+        width: 90%;
+    }
+
+    .footer {
+        display: grid;
+        grid-template-columns: 1fr;
+        padding: 50px 5vw;
+    }
+}
+
+/*footer query*/
+/* @media (max-width: 501px) and (min-width: 500px) {
+    .footer {
+        display: grid;
+        grid-template-columns: 1.5fr 1fr;
+    }
+} */
