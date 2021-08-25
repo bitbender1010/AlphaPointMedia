@@ -10,7 +10,7 @@ a {
 
 .banner-container {
     background: #f0f0f0;
-    padding-bottom: 80px;
+    /* padding-bottom: 80px; */
     padding-top: 10px;
 }
 
@@ -76,7 +76,7 @@ nav {
 }
 
 .bc-sub {
-    font-size: 25px;
+    font-size: 20px;
     text-align: center;
     /* background: yellow; */
     width: 60%;
@@ -227,6 +227,7 @@ nav {
     width: 80%;
     margin: 0px auto;
     margin-bottom: 50px;
+    margin-top: 10px;
 }
 
 .git-container input {
@@ -242,7 +243,7 @@ nav {
 
 .git-container textarea {
     display: block;
-    width: 100%;
+    width: -webkit-fill-available;
     height: 250px;
     padding-left: 20px;
     border: 2px solid gray;
@@ -337,6 +338,10 @@ nav {
     .top-link {
         margin-bottom: 10px!important;
         margin-top: 15px;
+    }
+
+    .banner-container {
+        padding-bottom: 50px;
     }
 }
 
