@@ -117,6 +117,8 @@ nav {
     box-shadow: 5px 5px red;
     margin-top: 50px;
     font-size: 20px;
+    border-radius: 5px;
+    border: none;
     padding: 10px 0px;
 }
 
@@ -128,7 +130,7 @@ nav {
 }
 
 .cta span {
-    padding: 0px 40px;
+    padding: 0px 55px;
     /* background: rebeccapurple; */
     text-align: center;
     font-weight: bold;
@@ -263,6 +265,7 @@ nav {
     width: -webkit-fill-available;
     height: 250px;
     padding-left: 20px;
+    padding-right: 20px;
     border: 2px solid gray;
     border-radius: 5px;
     font-size: 18px;
@@ -334,6 +337,10 @@ nav {
     .toggle {
         display: flex;
         z-index: 2;
+    }
+
+    nav {
+        margin: 0px 10px;
     }
 
     .who-we-are, .what-we-do, .flex-wwd {
