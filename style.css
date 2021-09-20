@@ -6,6 +6,11 @@ body {
 
 a {
     text-decoration: none;
+    color: unset;
+}
+
+.nav-links a {
+    display: flex;
 }
 
 .toggle {
