@@ -1,7 +1,7 @@
 body {
     margin: 0px;
     padding: 0px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif!important;
+    font-family: 'Poppins', sans-serif;
 }
 
 a {
@@ -27,19 +27,33 @@ a {
 .toggle div {
     width: 40px;
     height: 3px;
-    background-color: black;
+    background-color: white;
 }
 
 .banner-container {
-    background: #f0f0f0;
+    background: url(./images/doddle.svg);
     /* padding-bottom: 80px; */
     padding-top: 10px;
+    position: relative;
 }
+
+.wavy-svg {
+    position: absolute;
+    bottom: -10px;
+    width: 100%;
+    height: auto;
+}
+
+/* .banner-container svg {
+    position: absolute;
+    bottom: 0px;
+} */
 
 .logo {
     max-width: 100px;
     min-width: 100px;
     height: auto;
+    display: flex;
 }
 
 .logo img {
@@ -50,6 +64,7 @@ a {
 nav {
     display: flex;
     align-items: center;
+    color: white;
     /* background: red; */
     justify-content: space-between;
     margin: 0px 20px;
@@ -63,8 +78,8 @@ nav {
 }
 
 .nav-active {
-    color: red;
-    border-bottom: 2px solid red;
+    color: #e0a343;
+    border-bottom: 2px solid #e0a343;
     padding: 5px;
 }
 
@@ -74,8 +89,8 @@ nav {
 }
 
 .hello {
-    color: red;
-    border: 2px solid red;
+    color: #e0a343;
+    border: 2px solid #e0a343;
     padding: 5px 10px;
 }
 
@@ -86,45 +101,51 @@ nav {
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-repeat: no-repeat;
+    background-size: contain 100%;
 }
 
 .bc-main {
     font-size: 40px;
+    line-height: 50px;
     font-weight: bold;
     text-align: center;
     /* background: blue; */
     width: 70%;
     margin-top: 70px;
+    color: white;
 }
 
 .bc-sub {
-    font-size: 22px;
+    font-size: 23px;
+    line-height: 30px;
     text-align: center;
     /* background: yellow; */
     width: 60%;
-    margin-top: 10px;
-    color: #5d5d5d;
+    margin-top: 15px;
+    color: #ffffffd6;
 }
  
 .bcm-highlght {
-    color: red;
+    color: #e0a343;
 }
 
 .cta {
     color: white;
-    background-color: black;
+    background-color: #e0a343;
     display: flex;
     min-height: 30px;
     width: 60%;
     align-items: center;
     justify-content: center;
     position: relative;
-    box-shadow: 5px 5px red;
+    box-shadow: 5px 5px white;
     margin-top: 50px;
     font-size: 20px;
     border-radius: 5px;
     border: none;
     padding: 10px 0px;
+    margin-bottom: 15vw;
 }
 
 .cta img {
@@ -141,6 +162,10 @@ nav {
     font-weight: bold;
 }
 
+.bottom-cta {
+    box-shadow: 5px 5px black;
+}
+
 /*************************/
 .who-we-are, .what-we-do {
     display: grid;
@@ -149,14 +174,18 @@ nav {
     padding: 0px 10vw;
 }
 
+.who-we-are {
+    margin-top: 80px;
+}
+
 .wwa-text {
     margin-top: 100px;
     font-size: 16px;
-    background: #ff000038;
-    border-radius: 10px;
+    background: #96007349;
+    border-radius: 20px;
     border: none;
-    padding: 3px 20px;
-    color: red;
+    padding: 5px 20px;
+    color: #960074;
 }
 
 .wwa-main {
@@ -295,29 +324,33 @@ nav {
 /************/
 .footer {
     display: grid;
-    grid-template-columns: 1.5fr 1fr 1fr 1fr;
+    grid-template-columns: 2.5fr 1fr 1fr 1fr;
     padding: 50px 10vw;
     background-color: #f0f0f0;
     font-size: 18px;
     column-gap: 20px;
     color: grey;
-    row-gap: 20px;
+    row-gap: 40px;
 }
 
-.footer-child div {
-    margin-bottom: 10px;
+.ff-fc {
+    margin-right: 60px;
 }
+
+/* .footer-child div {
+    margin-bottom: 10px;
+} */
 
 .top-link {
     font-weight: bold;
     margin-top: 15px;
-    margin-bottom: 40px!important;
+    margin-bottom: 20px!important;
     color: black;
 }
 
 .footer-logo {
-    max-width: 150px;
-    min-width: 150px;
+    max-width: 120px;
+    min-width: 120px;
     height: auto;
 }
 
@@ -327,7 +360,7 @@ nav {
 }
 
 .footer .one-sub {
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 .footer-child {
