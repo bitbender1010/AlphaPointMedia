@@ -116,6 +116,8 @@ nav {
     object-fit: cover;
     margin-top: 100px;
     border-radius: 10px;
+    border: 1px solid lightgray;
+    box-shadow: 3px 3px 5px rgb(185, 185, 185);
 }
 
 .portfolio h3 {
