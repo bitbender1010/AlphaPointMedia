@@ -4,103 +4,120 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Alpha Point Media</title>
+    <title> Alpha Point Media </title>
     <!--CSS-->
-    <link href="./style.css" rel="stylesheet">
-
-    <!--Font Family-->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;700&display=swap" rel="stylesheet">
-
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-2VH80PNK96"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-2VH80PNK96');
-</script>
+    <link rel="stylesheet" type="text/css" href="./style.css" />
 </head>
 <body>
-    <!--cover-banner-->
-    <div class="banner-container">
-    <nav>
-    <div class="logo"><img src="./images/logo.png"/></div>
-    <div class="nav-links">
-        <div class="nav-active">HOME</div>
-        <div>ABOUT US</div>
-        <div>SERVICES</div>
-        <a href="./trainings.html"> <div>TRAININGS</div> </a>
-        <div>CONTACT</div>
-        <a class="hello" href="#cta">SAY HELLO!</a>
-    </div>
 
-    <!--Toggle-->
-    <div class="toggle">
-        <div></div>
-        <div></div>
-        <div></div>
-    </div>
+    <!--Padding Parent-->
+<div class="body">
+    <nav>
+        <!--Header-->
+        <div class="logo">
+            <img src="./images/logo.png" />
+        </div>
+
+        <div class="nav-items">
+            <a href="#"> <span> Services </span> </a>
+            <a href="#"> <span> Our Works </span> </a>
+            <a href="#"> <span> Blog </span> </a>
+        </div>
+
+        <!--Mobile Menu-->
+        <div class="mobile-nav">
+            <div> <img src="./images/ham-menu.svg" class="nav-img"/> </div>
+        </div>
 
     </nav>
-    <!--banner-content-->
-    <div class="banner-content">
-        <div class="bc-main">A World Class 360 Digital Agency Helping You <span class="bcm-highlght">Serve Your Customers Better</span></div>
-        <div class="bc-sub">We help you grow your business and brand through website design, digital marketing, motion design, content creation and lots more.</div>
-        <a class="cta" href="#cta"> <span>Get a free consultation</span> <img src="./images/arrow.svg"/></a>
+
+    <div class="mobile-nav-items">
+        <a href="#"> <span> Services </span> </a>
+        <a href="#"> <span> Our Works </span> </a>
+        <a href="#"> <span> Blog </span> </a>
     </div>
 
-    <!--SVG-->
-    <div class="wavy-svg">
-    <svg width="100%" height="auto" viewBox="0 0 1440 173" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <path fill-rule="evenodd" clip-rule="evenodd" d="M1440 172.737V12.7373L1410 7.43729C1380 1.73729 1320 -8.26271 1260 12.7373C1224.2 25.2689 1188.39 49.552 1152.59 73.8351C1128.39 90.2446 1104.2 106.654 1080 119.437C1020 151.737 960 161.737 900 167.437C840 172.737 780 172.737 720 151.437C679.4 136.754 638.8 112.775 598.2 88.7964C578.8 77.3387 559.4 65.881 540 55.4373C480 23.7373 420 1.73729 360 18.0373C322.079 27.9599 284.158 53.1811 246.238 78.4023C224.158 93.0872 202.079 107.772 180 119.437C123.367 149.925 66.7331 160.545 35.3279 166.434C33.461 166.784 31.6833 167.117 30 167.437L0 172.737H1440Z" fill="white"/>
-    </svg>
+    <!--Banner --> 
+    <div class="cta">
+        <h1> Alpha Point Media is a website design agency <span class="anime">  in Lagos, Nigeria. </span> </h1>
+          <span id="typed"></span>
+        <button> Contact Us <img src="./images/click.gif"/> </button>
     </div>
 
-    </div>
-    <!--end of cover-banner-->
-        <!--Wave
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#960074" fill-opacity="1" d="M0,256L30,250.7C60,245,120,235,180,202.7C240,171,300,117,360,101.3C420,85,480,107,540,138.7C600,171,660,213,720,234.7C780,256,840,256,900,250.7C960,245,1020,235,1080,202.7C1140,171,1200,117,1260,96C1320,75,1380,85,1410,90.7L1440,96L1440,0L1410,0C1380,0,1320,0,1260,0C1200,0,1140,0,1080,0C1020,0,960,0,900,0C840,0,780,0,720,0C660,0,600,0,540,0C480,0,420,0,360,0C300,0,240,0,180,0C120,0,60,0,30,0L0,0Z"></path></svg>
-        -->
-            
-    <!--Who we are-->
-    <div class="who-we-are">
-        <!--1-->
-        <div> 
-            <button class="wwa-text">Who we are</button>
-            <div class="wwa-main">We are a full service creative digital agency</div>
-            <div class="wwa-para">Alpha Point Media is your one stop agency that creates digital solutions to deliver innovative, creative and interactive experiences for brands across the globe.
-                <br> <br>
-                We are driven by the passion to explore new strategies, innovations, and experiment beyond industry best practices this is why we are the best for your business and brand.
+    <div class="works">
+        <span> Our Works </span>
 
-            
+        <!--Portfolio-->
+        <div class="portfolio-cover">
+            <a href="https://swiftfinance-referbox.vercel.app/"> 
+            <div class="portfolio">
+                <img src="./images/SwiftFinance.png"/>
+                <h3>Swift Finance</h3>
+                <h4>Website Design, UI UX</h4>
             </div>
+            </a>
+
+            <a href="https://www.figma.com/file/WzUFtZkqIUrxr4dh6215C8/Covenant-MFB?node-id=0%3A1&t=GkpoIxz26BNFUfWD-1"> 
+            <div class="portfolio">
+                <img src="./images/Covenant.png"/>
+                <h3>Covenant MicroFinance Bank</h3>
+                <h4>Product Design, UI UX</h4>
+            </div>
+            </a>
+
         </div>
 
-        <!--2-->
-        <div class="right-img">
-            <img src="./images/woman.jpg"/>
+        <div class="portfolio-cover">
+            <a href="https://www.yemaka.app/"> 
+            <div class="portfolio">
+                <img src="./images/Yemaka.png"/>
+                <h3>Yemaka</h3>
+                <h4>Website Design, UI UX</h4>
+            </div>
+            </a>
+
+            <a href="https://www.figma.com/file/7STH4HbtQmjZXz2kWiS4NX/Data-Fest-Africa?node-id=0%3A1&t=1FqONZHz2ilVpdZu-1"> 
+            <div class="portfolio">
+                <img src="./images/DataFestAfrica.png"/>
+                <h3>DataFest Africa</h3>
+                <h4>UI UX</h4>
+            </div>
+            </a>
+
         </div>
+
+
+        <div class="portfolio-cover">
+            <a href="https://floodhelp-beta.vercel.app/"> 
+            <div class="portfolio">
+                <img src="./images/FloodHelp.png"/>
+                <h3>FloodHelp</h3>
+                <h4>Website Design, UI UX</h4>
+            </div>
+            </a>
+
+            <a href="https://universityx.com.ng/"> 
+            <div class="portfolio">
+                <img src="./images/UniversityX.png"/>
+                <h3>UniversityX</h3>
+                <h4>Web Application, UI UX</h4>
+            </div>
+            </a>
+
+        </div>
+
     </div>
+</div>
 
-
-    <!--WWD Parent container-->
-    <div class="wwd-parent">
-    <!--What we do-->
-    <div class="what-we-do">
-        <div> 
-            <button class="wwa-text">What we do</button>
-            <div class="wwa-main wwd-width">We provide services that will boost the 21st century business</div>
-        </div>
-    </div>
-
-    <!--WWD Boxes-->
+    <!--Our Services-->
+    <div class="services">
+        <span> Our Services </span>
+    
+            <!--WWD Boxes-->
     <div class="flex-wwd">
         <div class="wwd-boxes">
-            <img src="./images/lightbulb.svg" class="wwd-center-icon"/>
-            <div class="main-wwd">Design</div>
+            <img src="./images/coffee.svg" class="wwd-center-icon"/>
+            <div class="main-wwd">Web Design</div>
             <div>
                 We create visually appealling graphic designs that will help boost your brand credibility. Be it logo design, flyer and poster deisgn, UI/UX design or brand design.
             </div>
@@ -112,81 +129,31 @@
         </div>
 
         <div class="wwd-boxes">
-            <img src="./images/megaphone.svg" class="wwd-center-icon"/>
-            <div class="main-wwd">Digital Marketing</div>
+            <img src="./images/lightbulb.svg" class="wwd-center-icon"/>
+            <div class="main-wwd">App Development</div>
             <div>
                 You may be the best at what you do, but what happens if no one knows you exist? That is why you need us to amplify your brand's voice to a wider target audience.
             </div>
             
-            <!-- <svg id="keyboard_backspace-black-18dp" class="wwd-arrow" xmlns="http://www.w3.org/2000/svg" width="83.962" height="83.962" viewBox="0 0 83.962 83.962">
-                <path id="Path_1" data-name="Path 1" d="M83.962,0H0V83.962H83.962Z" fill="none"/>
-                <path id="Path_2" data-name="Path 2" d="M3,23.492H52.573L40.048,10.933,44.981,6,65.972,26.991,44.981,47.981l-4.933-4.933L52.573,30.489H3Z" transform="translate(7.495 14.991)" fill="#000"/>
-            </svg> -->
         </div>
 
         <div class="wwd-boxes">
             <img src="./images/compass.svg" class="wwd-center-icon"/>
-            <div class="main-wwd">Website</div>
+            <div class="main-wwd">Product Design</div>
             <div>
                 Websites are not just websites now adays, they are now an essental factor that can make you win or lose a customer.
                 That is why you need a modern looking website that is fast, reliable and responsive.
             </div>
             
-            <!-- <svg id="keyboard_backspace-black-18dp" class="wwd-arrow" xmlns="http://www.w3.org/2000/svg" width="83.962" height="83.962" viewBox="0 0 83.962 83.962">
-                <path id="Path_1" data-name="Path 1" d="M83.962,0H0V83.962H83.962Z" fill="none"/>
-                <path id="Path_2" data-name="Path 2" d="M3,23.492H52.573L40.048,10.933,44.981,6,65.972,26.991,44.981,47.981l-4.933-4.933L52.573,30.489H3Z" transform="translate(7.495 14.991)" fill="#000"/>
-            </svg> -->
-        </div>
-    <!-- </div> -->
-
-        <!--WWD Boxes-->
-        <!-- <div class="flex-wwd"> -->
-            <div class="wwd-boxes">
-                <img src="./images/coffee.svg" class="wwd-center-icon"/>
-                <div class="main-wwd">Apps</div>
-                <div>
-                    Create mobile apps for Android and iOS devices that are scalable, fast and accessible to millons of users worldwide.
-                    With our team of experts, you are assured of getting only the best.
-                </div>
-                
-                <!-- <svg id="keyboard_backspace-black-18dp" class="wwd-arrow" xmlns="http://www.w3.org/2000/svg" width="83.962" height="83.962" viewBox="0 0 83.962 83.962">
-                    <path id="Path_1" data-name="Path 1" d="M83.962,0H0V83.962H83.962Z" fill="none"/>
-                    <path id="Path_2" data-name="Path 2" d="M3,23.492H52.573L40.048,10.933,44.981,6,65.972,26.991,44.981,47.981l-4.933-4.933L52.573,30.489H3Z" transform="translate(7.495 14.991)" fill="#000"/>
-                </svg> -->
-            </div>
-    
-            <div class="wwd-boxes">
-                <img src="./images/xtraa.svg" class="wwd-center-icon"/>
-                <div class="main-wwd">Consultation</div>
-                <div>
-                    Need expert advice? We have a team of qualified thnkers and problem solvers with years of experience in marketing,
-                    product design, software devlopment and many others.
-                </div>
-                
-                <!-- <svg id="keyboard_backspace-black-18dp" class="wwd-arrow" xmlns="http://www.w3.org/2000/svg" width="83.962" height="83.962" viewBox="0 0 83.962 83.962">
-                    <path id="Path_1" data-name="Path 1" d="M83.962,0H0V83.962H83.962Z" fill="none"/>
-                    <path id="Path_2" data-name="Path 2" d="M3,23.492H52.573L40.048,10.933,44.981,6,65.972,26.991,44.981,47.981l-4.933-4.933L52.573,30.489H3Z" transform="translate(7.495 14.991)" fill="#000"/>
-                </svg> -->
-            </div>
-    
-            <div class="wwd-boxes">
-                <img src="./images/book.svg" class="wwd-center-icon"/>
-                <div class="main-wwd">Trainings</div>
-                <div>
-                    We offer periodic trainings to intrested applicants on web design and development, graphic design, UI/UX design, motion design and many more.
-                </div>
-                
-                <!-- <svg id="keyboard_backspace-black-18dp" class="wwd-arrow" xmlns="http://www.w3.org/2000/svg" width="83.962" height="83.962" viewBox="0 0 83.962 83.962">
-                    <path id="Path_1" data-name="Path 1" d="M83.962,0H0V83.962H83.962Z" fill="none"/>
-                    <path id="Path_2" data-name="Path 2" d="M3,23.492H52.573L40.048,10.933,44.981,6,65.972,26.991,44.981,47.981l-4.933-4.933L52.573,30.489H3Z" transform="translate(7.495 14.991)" fill="#000"/>
-                </svg> -->
-                  
-            </div>
         </div>
 
     
     </div>
 
+    <!--End Of Services-->
+    </div>
+
+    <!--Form-->
     <!--Get in touch-->
     <form name="Consultation" method="POST" data-netlify="true">
     <div class="git-container" id="cta"> 
@@ -201,42 +168,42 @@
         <input type="text" placeholder="What is your Phone Number?" name="Phone Number"/>
         <textarea placeholder="What would you like us to do for you?" name="Request"></textarea>
 
-        <button class="cta bottom-cta" type="submit"> <span>Send message</span> <img src="./images/arrow.svg"/></button>
-        <div class="sub-bottom">Or call <span style="color: #960074">+2349033292522</span> if you would like to speak directly to a customer agent.</div>
+        <button class="cta-btn bottom-cta" type="submit"> <span>Send message</span> <img src="./images/arrow.svg"/></button>
     </div>
     </form>
 
-
     <!--Footer-->
-    <footer class="footer">
-        <div class="footer-child ff-fc">
-            <div class="footer-logo"><img src="./images/logo.png"/></div>
-            <div class="one-sub">We help you grow your business and brand through website design, digital marketing, content creation and lots more. Give us a call today, lets work together in accelerating your brand. </div>
+    <footer>
+    <div>
+        <div class="footer-main">About Us</div>
+        <div class="footer-sub"> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsam commodi quam consectetur delectus dicta quae minima eaque ducimus nemo reiciendis? </div>
+        <div class="footer-icons"> 
+            <img src="./images/facebooksvg.svg"/>
+            <img src="./images/twittersvg.svg"/>
+            <img src="./images/instagram-outline-thin.svg"/>
+        </div>
+    </div>
+
+    <div>
+        <div class="footer-main">Contact Us</div>
+        <div class="footer-sub">
+            <div class="footer-right">
+                <img src="./images/location-pin.svg"/> <span> 16, Akinyele Cl, Ikeja, Lagos </span>
+            </div>
+
+            <div class="footer-right">
+                <img src="./images/phone.png"/> <span> +234 903 329 2522 </span>
+            </div>
+
+            <div class="footer-right">
+                <img src="./images/email-ouline.svg"/> <span> hello@alphapointmedia.com </span>
+            </div>
         </div>
 
-        <div class="footer-child"> 
-            <div class="top-link">Helpful links</div>
-            <div>About us</div>
-            <div>Portfolio</div>
-            <div>Blog</div>
-        </div>
-
-        <div class="footer-child">
-            <div class="top-link">Services</div>
-            <div>Design</div>
-            <div>Digital marketing</div>
-            <div>Apps</div>
-            <div>Consultation</div>
-            <div>Trainings</div>
-        </div>
-
-        <div class="footer-child">
-            <div class="top-link">Get in touch</div>
-            <div>Contact us</div>
-            <div>Request a quote</div>
-            <div>alphapointmedia@gmail.com</div>
-        </div>
+    </div>
+        
     </footer>
 
+<script src="./index.js"> </script>
 </body>
 </html>
