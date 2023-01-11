@@ -310,12 +310,11 @@ nav {
 .footer-sub {
     font-size: 20px;
     margin: 20px 0px;
-    word-break: break-all;
 }
 
 .footer-icons {
     display: flex;
-    gap: 10px;
+    gap: 15px;
 }
 
 .footer-icons img {
